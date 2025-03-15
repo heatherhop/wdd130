@@ -1,9 +1,13 @@
+:root {
+    --heading-background-color: #496280;
+}
+
 main {
     max-width: 750px;
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -14,7 +18,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-background-color);
 }
 
 main img {
