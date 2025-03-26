@@ -81,9 +81,11 @@ h1 {
     height: auto;
 }
 
-.hero article h2 {
+.hero article h3 {
     justify-items: center;
     margin-top: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: x-large;
 }
 
 .hero article img {
@@ -109,7 +111,7 @@ h1 {
     font-size: 20px;
 }
 
-h3 {
+h2 {
     display: flex;
     justify-content: center;
     font-family: "Inter", sans-serif;
