@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML & CSS - Quiz Form</title>
+    <meta name="description" content="html and css quiz">
+    <meta name="author" content="Heather Hopkins">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>WWD 130 | Heather Hopkins | HTML & CSS - Quiz Form</h1>
+    </header>
+    <main>
+        <form class="form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="date">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="q1">1. Which do you like best: HTML or CSS?</label>
+                <input type="text" id="q1" name="q1">
+                <label for="q2">2. Please share why you like it best:</label>
+                <textarea id="q2" name="q2"></textarea>
+                <label for="q3">3. Which are you better qualified to do professionally?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled> Choose One...</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="other">Other</option>
+                </select>
+                <input type="text" id="short-answer" name="short-answer" placeholder="Enter answer to other">
+                <label for="q4" class="q4">4. How much do you love CSS? Rate from 1-10, with 1 being the lowest and 10
+                    being the
+                    highest.</label>
+                <input type="number" id="q4" name="q4" min="1" max="10">
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
