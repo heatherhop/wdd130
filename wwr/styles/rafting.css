@@ -86,6 +86,7 @@ h1 {
     margin-top: 15px;
     font-family: "Inter", sans-serif;
     font-size: x-large;
+    letter-spacing: .1rem;
 }
 
 .hero article img {
@@ -107,8 +108,10 @@ h1 {
 }
 
 .hero p {
-    padding: 25px;
-    font-size: 20px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: .1rem;
 }
 
 h2 {
@@ -121,6 +124,7 @@ h2 {
     padding: 30px;
     text-align: left;
     color: var(--secondary-color);
+    letter-spacing: .1rem;
 }
 
 .history {
@@ -128,11 +132,25 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     column-gap: 25px;
+    font-size: 18px;
+    font-weight: 300;
+   
+}
+
+section h3 {
     font-size: 20px;
+    color: var(--secondary-color);
+    font-family: "Inter", sans-serif;
 }
 
 .contact {
     text-align: center;
+
+}
+
+.contact a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .container {
@@ -206,9 +224,38 @@ button {
 
 .guides img {
     margin: 10px 10px;
-    width: 140px;
-    height: 90px;
+    width: 200px;
+    height: 140px;
     object-fit: cover;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+.trips {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trips img {
+    margin: 10px 10px;
+    width: 240px;
+    object-fit: cover;
+}
+
+.equipment p {
+    margin: 0px 60px;
+    font-size: 18px;
+    letter-spacing: .05rem;
+
+}
+
+.equipment img {
+    width: 260px;
+    height: 200px;
+    margin: 10px 40px;
+    float: left;
 }
 
 .gallery img {
@@ -219,7 +266,7 @@ button {
 }
 
 figure {
-    text-align: center;
+    text-align: center;    
 }
 
 footer {
@@ -246,5 +293,23 @@ footer a {
 }
 
 .sociallinks {
+    cursor: pointer;
     display: flex;
+}
+
+.table h3,
+h4 {
+    margin-bottom: 20px;
+}
+
+tr th {
+    width: 70px;
+    padding: 8px;
+}
+
+tr th,
+td {
+    /* width: 90px; */
+    /* padding: 10px; */
+    text-align: left;
 }
