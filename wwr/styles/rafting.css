@@ -94,6 +94,7 @@ h1 {
     margin: 30px;
     border: 2px solid rgb(0 0 0 / 0.2);
     width: 170px;
+    box-shadow: 0 0 30px gray;
 }
 
 .hero article {
@@ -135,6 +136,9 @@ h2 {
     font-size: 18px;
     font-weight: 300;
    
+}
+.history img {
+    box-shadow: 0 0 30px gray;
 }
 
 section h3 {
@@ -227,6 +231,7 @@ button {
     width: 200px;
     height: 140px;
     object-fit: cover;
+    box-shadow: 0 0 30px gray;
 }
 
 h4 {
@@ -242,20 +247,22 @@ h4 {
     margin: 10px 10px;
     width: 240px;
     object-fit: cover;
+    box-shadow: 0 0 30px gray;
 }
 
-.equipment p {
-    margin: 0px 60px;
+.equipment p {   
+    display: block;
+    margin: 0px 40px;
     font-size: 18px;
     letter-spacing: .05rem;
 
 }
 
 .equipment img {
-    width: 260px;
-    height: 200px;
-    margin: 10px 40px;
+    width: 200px;  
+    margin: 25px 40px;
     float: left;
+    box-shadow: 0 0 30px gray;
 }
 
 .gallery img {
@@ -263,6 +270,7 @@ h4 {
     width: 140px;
     height: 90px;
     object-fit: cover;
+    box-shadow: 0 0 30px gray;
 }
 
 figure {
